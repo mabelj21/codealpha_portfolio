@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>JUMBO MABEL DAGOGO-PORTFOLIO</title>
+</head>
+<body>
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- NAV BAR -->
+     <nav id="navbar">
+        <a class="logo" href="#hero">M<span>.</span>J</a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+            <li><a href="#resume" onclick="closeMenu()">Resume</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+     </nav>
+
+        <!-- HERO SECTION -->
+         <section id="hero">
+            <div class="hero-bg-text">MABEL</div>
+            <p class="hero-tag"> ✦ Available for work . Based in Port-Harcourt, Nigeria</p>
+            <h1 class="hero-name">
+                Frontend<br><em>Developer</em><br>&amp; Designer
+            </h1>
+            <p class="hero-sub">I'm a passionate web developer building clean, engaging digital experiences where solid code meets bold visuals. I turn complex ideas into simple, smooth, and memorable interfaces that just make sense and looks good doing it.</p>
+            <div class="hero-ctas">
+                <a href="#projects" class="btn accent"><span>View Projects</span></a>
+                <a href="#contact" class="btn"><span>Let's Talk</span></a>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-line"></div>
+                <span>Scroll</span>
+            </div>
+         </section>
+            
+         <divclass="divider"></div>
+
+         <!-- ABOUT SECTION -->
+          <section id="about">
+            <div class="about-grid">
+                <div class="about-potrait">
+                    <div class="potrait-frame">
+                        <img src="./img/mypic.jpeg" alt="My Profile" class="portrait-image">
+                    </div>
+                    <div class="potrait-outline"></div>
+                </div>
+
+
+                <!--    SECTION BASE -->
+                <div class="about-text">
+                    <P class="section-label reveal">About ME</P>
+                    
+                    <h2 class="section-title reveal reveal-delay-1">Turning ideas into<br><em style="font-family:'Playfair Display',serif;font-style:italic">realities</em></h2>
+                    <p class="reveal reveal-delay-2">I'm Mabel Jumbo, a frontend developer with 1 year of experience working with HTML, CSS, and JavaScript. I enjoy building simple, clean, and responsive websites that focus on good user experience and solid design. I pay attention to details and love turning ideas into functional, well-structured interfaces. </p>
+                    <P class="reveal reveal-delay-2"> I build clean, responsive, and user-focused web interfaces using HTML, CSS, and JavaScript. Through personal projects and hands-on practice, I’ve developed a strong eye for detail and a growing ability to turn ideas into smooth, functional websites. I’m eager to contribute, learn fast, and bring real value to teams through thoughtful frontend development.</P>
+                    <div class="skills-grid reveal reveal-delay-3">
+                        <div class="skill-tag">HTML5</div>
+                        <div class="skill-tag">CSS3</div>
+                        <div class="skill-tag">Javascript (ES6+)</div>
+                        <div class="skill-tag">Responsive Web Design</div>
+                        <div class="skill-tag">Flexbox/CSS Grid</div>
+                        <div class="skill-tag">Git & GitHub</div>
+                        <div class="skill-tag">Frontend Development</div>
+                    </div>
+
+                    <div class="stats-row reveal">
+                        <div class="stat">
+                            <div class="stat-num" data-count="10">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num" data-count="1">0</div>
+                            <div class="stat-label">Years of Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num" data-count="5">0</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
+          <!-- PROJECTS SECTION -->
+           <section id="projects">
+            <div class="projects-header">
+                <div>
+                    <p class="section-label reveal">Selected Work</p>
+                    <h2 class="section-title reveal reveal-delay-1">Projects</h2>
+                </div>
+                <a href="#contact" class="btn reveal reveal-delay-2"><span>Start a Project →</span></a>
+            </div>
+
+            <div class="projects-grid">
+                 <!-- project 1 -->
+                 <div class="project-card reveal">
+                    <div class="project-thumb">
+                        <div class="project-thumb-bg pt-1"></div>
+                        <div class="project-thumb-icon">🍲</div> 
+                        <div class="project-overlay">
+                            <a href="https://mabelj21.github.io/NaijaChow-Kitchen/" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">Naija Chow</h3>
+                        <p class="project-desc">A responsive Nigerian food website showcasing popular local dishes, recipes, and food categories with a modern user interface.</p>
+                    </div>
+                 </div>
+                    <!-- Project2 -->
+                     <div class="project-card reveal reveal-delay-1">
+                    <div class="project-thumb">
+                        <div class="project-thumb-bg pt-2"></div>
+                        <div class="project-thumb-icon">🧮</div> 
+                        <div class="project-overlay">
+                            <a href="https://mabelj21.github.io/codealpha_calculator/" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">Modern Calculator</h3>
+                        <p class="project-desc">A responsive calculator application built with JavaScript featuring arithmetic operations, keyboard support, smooth animations, and an intuitive user interface optimized for desktop and mobile devices.</p>
+                    </div>
+                 </div>
+
+                 <!-- project 3 -->
+                  <div class="project-card reveal reveal-delay-2">
+                    <div class="project-thumb">
+                        <div class="project-thumb-bg pt-3"></div>
+                        <div class="project-thumb-icon">🖼️</div> 
+                        <div class="project-overlay">
+                            <a href="https://mabelj21.github.io/codealpha_Image-gallery/" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">Responsive Image Gallery</h3>
+                        <p class="project-desc">A modern image gallery featuring category filtering, lightbox viewing and smooth animations, and a fully responsive layout that provides an engaging experience across all screen sizes.</p>
+                    </div>
+                 </div>
+            </div>
+           </section>
+
+              <div class="divider"></div>
+
+              <!-- RESUME -->
+               <section id="resume">
+                <p class="section-label reveal">My Journey</p>
+                <h2 class="section-title reveal reveal-delay-1">Resume</h2>
+                <div class="resume-grid">
+                    <div>
+                        <h3 style="font-family:'Playfair Display',serif;font-size:1.3rem;margin-bottom:2rem;" class="reveal">Experience</h3>
+                        <div class="timeline">
+                            <div class="timeline-item reveal">
+                                <div class="timeline-date">2026-Present</div>
+                                <div class="timeline-title">Frontend Developer</div>
+                                <div class="timeline-co">Self-Learning . Remote</div>
+                                <div class="timeline-desc">Developed multiple beginner-friendly projects:
+                                    a personal portfolio website, a Tech news website for dynamic content layout, and an image gallery
+                                     focusing on grid design and responsiveness.
+                                     These projects helped me build a strong foundation in HTML, CSS, and JavaScript,
+                                     and I'm excited to continue growing my skills and taking on new challenges in frontend development.</div>
+                                </div>
+
+                                <!-- resume-content 2 -->
+                                 <div class="timeline-item reveal reveal-delay-1">
+                                    <div class="timeline-date">2025</div>
+                                    <div class="timeline-title">Web Development Learner</div>
+                                    <div class="timeline-co">Self-Learning . Remote</div>
+                                    <div class="timeline-desc">Completed various online courses and tutorials to build a strong foundation in web development technologies.</div>
+                                </div>
+
+                                <!-- resume content 3 -->
+                                <div class="timeline-item reveal reveal-delay-2">
+                                     <div class="timeline-date">Present</div>
+                                    <div class="timeline-title">Personal Projects</div>
+                                    <div class="timeline-co"> Remote</div>
+                                    <div class="timeline-desc">Built Responisve personal projects with the use of HTML, CSS and Javascript. Focused on clean UI designs, responsiveness, and user expreience.</div>
+                                </div>
+                                </div>
+
+                                <h3 style="font-family:'Playfair Display',serif;font-size:1.3rem;margin:2.5rem 0 2rem;" class="reveal">Education</h3>
+                                <div class="timeline">
+                                    <div class="timeline-item reveal">
+                                        <div class="timeline-date">2020-2024</div>
+                                        <div timeline-title>BSc Computer Science</div>
+                                        <div class="timeline-co">Abia State University</div>
+                                        <div class="timeline-desc">Speacialised in Data-Analysis & Web Development.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 style="font-family:'Playfair Display',serif; font-size:1.3rem;margin-bottom:2rem;" class="reveal">Technical Skills</h3>
+                                <div class="skill-bars reveal">
+                                    <div class="skill-bar-item">
+                                        <div class="skill-bar-header"><span>HTML</span><span></span>95%</div>
+                                        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.95"></div></div>
+                                </div>
+                                 <div class="skill-bar-item">
+                                        <div class="skill-bar-header"><span>CSS3</span><span></span>95%</div>
+                                        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.95"></div></div>
+                                </div>
+
+                                 <div class="skill-bar-item">
+                                        <div class="skill-bar-header"><span>JavaScript</span><span></span>85%</div>
+                                        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.85"></div></div>
+                                </div>
+
+                                 <div class="skill-bar-item">
+                                            <div class="skill-bar-header"><span>Responsive Design</span><span></span>80%</div>
+                                            <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.8"></div></div>              
+                                </div>
+
+                                 <div class="skill-bar-item">
+                                        <div class="skill-bar-header"><span>Flexbox & CSS Grid</span><span></span>78%</div>
+                                        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.78"></div></div>
+                                </div>
+
+                                 <div class="skill-bar-item">
+                                        <div class="skill-bar-header"><span>Git & GitHub</span><span></span>70%</div>
+                                        <div class="skill-bar-track"><div class="skill-bar-fill" style="--w:0.70"></div></div>
+                                </div>
+                               </div>
+                </div>
+               </section>
+
+
+               <div class="divider"></div>
+
+               <!-- CONTACT -->
+                <section id="contact">
+            <div class="contact-grid">
+            <div class="contact-intro">
+          <p class="section-label reveal">Get In Touch</p>
+         <h2 class="section-title reveal reveal-delay-1">Let's build something<br><em style="font-family:'Playfair Display',serif;font-style:italic">great</em></h2>
+         <p class="reveal reveal-delay-2">Whether you have a project in mind, a role to fill, or just want to connect — my inbox is always open. I typically respond within 24 hours.</p>
+         <div class="contact-links reveal reveal-delay-2">
+          <a href="mailto:jumbomabel512@gmail.com" class="contact-link">
+            <div class="contact-link-icon">✉</div>
+            <span>jumbomabel512@gmail.com</span>
+          </a>
+          <a href="tel:+234 902 019 6413" class="contact-link">
+            <div class="contact-link-icon">✆</div>
+            <span>+234 902 019 6413</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-link">
+            <div class="contact-link-icon">in</div>
+            <span>www.linkedin.com/in/mabeljumbo-dagogo</span>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-link">
+            <div class="contact-link-icon">⌥</div>
+            <span>mabelj21</span>
+             </a>
+            </div>
+        </div>
+            <div>
+         <div class="contact-form reveal reveal-delay-1" id="contactForm">
+          <div class="form-field">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" placeholder="Jane Doe"/>
+          </div>
+          <div class="form-field">
+            <label for="femail">Email Address</label>
+            <input type="email" id="femail" placeholder="jane@example.com"/>
+          </div>
+          <div class="form-field">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" placeholder="Project enquiry"/>
+          </div>
+          <div class="form-field">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" placeholder="Tell me about your project…"></textarea>
+          </div>
+          <button class="btn accent" onclick="submitForm()"><span>Send Message →</span></button>
+          <div class="form-success" id="formSuccess">
+            ✓ Message sent! I'll get back to you within 24 hours.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+                <!-- FOOTER SECTION -->
+                 <footer>   
+                    <a class="logo" href="#hero">M<span>.</span>Jumbo</a>
+                    <p>© 2026 Mabel Jumbo. Crafted with care.</p>
+                    <div class="footer-socials">
+                        <a href="https://github.com/">GitHub</a>
+                        <a href="https://www.linkedin.com/in/mabeljumbo-dagogo/">Linkdin</a>
+                        <a href="https://wa.me/+2349020196413">Whatspp</a>
+                    </div>
+                 </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
