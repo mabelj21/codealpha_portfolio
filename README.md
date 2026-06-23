@@ -1,4 +1,4 @@
-# CodeAlpha Portfolio
+# CodeAlpha Internship Task 3
 
 A modern and fully responsive personal portfolio website built with HTML, CSS, and JavaScript as part of the CodeAlpha internship program.
 
