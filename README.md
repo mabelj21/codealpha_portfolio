@@ -21,5 +21,6 @@ A modern and fully responsive personal portfolio website built with HTML, CSS, a
 - JavaScript
 
 ## Author
+
 **Jumbo Mabel Dagogo**
 
