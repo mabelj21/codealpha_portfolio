@@ -279,30 +279,64 @@
              </a>
             </div>
         </div>
-            <div>
-         <div class="contact-form reveal reveal-delay-1" id="contactForm">
-          <div class="form-field">
-            <label for="fname">Your Name</label>
-            <input type="text" id="fname" placeholder="Jane Doe"/>
-          </div>
-          <div class="form-field">
-            <label for="femail">Email Address</label>
-            <input type="email" id="femail" placeholder="jane@example.com"/>
-          </div>
-          <div class="form-field">
-            <label for="fsubject">Subject</label>
-            <input type="text" id="fsubject" placeholder="Project enquiry"/>
-          </div>
-          <div class="form-field">
-            <label for="fmessage">Message</label>
-            <textarea id="fmessage" placeholder="Tell me about your project…"></textarea>
-          </div>
-          <button class="btn accent" onclick="submitForm()"><span>Send Message →</span></button>
-          <div class="form-success" id="formSuccess">
-            ✓ Message sent! I'll get back to you within 24 hours.
-          </div>
-        </div>
-      </div>
+
+        <form 
+  class="contact-form reveal reveal-delay-1" 
+  id="contactForm"
+  action="https://formspree.io/f/mbglerqv"
+  method="POST"
+>
+
+  <div class="form-field">
+    <label for="fname">Your Name</label>
+    <input 
+      type="text" 
+      id="fname" 
+      name="name"
+      placeholder="Jane Doe"
+      required
+    />
+  </div>
+
+  <div class="form-field">
+    <label for="femail">Email Address</label>
+    <input 
+      type="email" 
+      id="femail" 
+      name="email"
+      placeholder="jane@example.com"
+      required
+    />
+  </div>
+
+  <div class="form-field">
+    <label for="fsubject">Subject</label>
+    <input 
+      type="text" 
+      id="fsubject" 
+      name="subject"
+      placeholder="Project enquiry"
+      required
+    />
+  </div>
+
+  <div class="form-field">
+    <label for="fmessage">Message</label>
+    <textarea 
+      id="fmessage" 
+      name="message"
+      placeholder="Tell me about your project…"
+      required
+    ></textarea>
+  </div>
+
+  <button class="btn accent" type="submit">
+    <span>Send Message →</span>
+  </button>
+
+</form>
+
+          
     </div>
   </section>
 
